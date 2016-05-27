@@ -1,0 +1,15 @@
+div {margin: o; padding: 0;}
+
+.Image{
+	width: 750px;
+	margin: 80px auto;
+	position: absolute; left: 350px;
+}
+.Search-Bar{
+	width: 500px;
+	margin: 100px auto;
+	position: absolute; left: 185px; top: 60px;
+}
+.Search-Buttons{
+	position: absolute;left: 520px; top: 350px;
+}
