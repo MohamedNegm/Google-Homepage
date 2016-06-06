@@ -3,30 +3,54 @@
 <head>
 	<title>Google</title>
 	<link rel="stylesheet" href="Google.css">
+	<style type="text/css">
+
+	</style>
 </head>
 <body>
-
+<div class="nav">
+	<ul>
+        <li><a href="#">Gmail </a></li>
+        <li><a href="#">Images</a></li>
+    	<li><a href="#"><img id="Google apps" src="app.png" height="24"></a></li>
+    	<li><a ><form action="#" method="POST" name="Buttons">
+		<input class="Sign-Button" type="submit" value="Sign in">	
+	</form></a></li>
+      </ul>
+</div>
+<center>
 <div class="Image">
-	<img src="Google-Logo.jpg" width="550">
+	<img src="googlelogo.png">
 </div>
-
 <div class="Search-Bar">
-	<form action="#" method="POST" name="Search">
-		<input type="text" name="search" class="Search-Bar">		
+	<form action="search.php" method="get" name="search-bar">
+		<img class="mic" src="mic.png" alt="" >
+		<input type="text" name="search" class="Search-Bar" >
+	</form>	
+</div>
+<div class="Buttons">
+	<form action="#" method="POST" name="Buttons">
+		<input class="Search-Button" type="submit" value="Google Search">
+		<input class="Lucky-Button" type="submit" value="I'm Feeling Lucky">	
 	</form>
 </div>
-
-<div class="Search-Buttons">
-
-<form action="#" method="POST" name="Buttons">
-
-		<input type="submit" value="Google Search">
-
-		<input type="submit" value="Feeling Lucky">	
-
-	</form>
+</center>
 
 </div>
+    
+    <footer>
+      <ul class="footer-left">
+        <li><a class="advertising" href="#">Advertising</a></li>
+        <li><a class="business" href="#">Business</a></li>
+        <li><a class="about" href="#">About</a></li>
+      </ul>
 
+      <ul class="footer-right">
+        <li><a class="privacy" href="#">Privacy</a></li>
+        <li><a class="terms" href="#">Terms</a></li>
+        <li><a class="settings" href="#">Settings</a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 </html>
